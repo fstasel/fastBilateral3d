@@ -1,7 +1,5 @@
 # fastBilateral3d
-Fast 3D Bilateral filtering in O(1) time for MATLAB
-
-Fast 3d bilateral filter for unit8 images
+Fast 3D Bilateral filtering in O(1) time for MATLAB uint8 images
 Coded by FST
 
 F. Porikli, “Constant time O (1) bilateral filtering,” Comput. Vis.
