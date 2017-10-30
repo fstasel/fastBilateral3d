@@ -39,7 +39,7 @@ function Ibf = bf3(I, spatialSize, rangeSigma)
         Ibins_int(b,:,:,:) = integralImage3(squeeze(Ibins(b,:,:,:)));
     end
     
-    hWindow = uint8(spatialSize / 2);
+    hWindow = uint8(floor(spatialSize / 2));
     Ibf = zeros(sz,sy,sx);
     for z = 1:sz
         eR = z + hWindow;
